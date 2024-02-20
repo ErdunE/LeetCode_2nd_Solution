@@ -4,7 +4,7 @@
 
 1. [实战题目 - Array](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Array)
 
-2. [实战题目 - Linked List]()
+2. [实战题目 - Linked List](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Linked%20List)
 
 3. [实战题目 - Binary Tree]()
 
