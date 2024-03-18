@@ -10,59 +10,76 @@
  * }
  */
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        
-        //定义一个新联表伪指针，用来指向头指针，返回结果
-        ListNode prev = new ListNode(0);
+    public ListNode reverseKGroup(ListNode head, int k) {
+        // 此处只是设置一个哨兵节点
+        ListNode dummy = new ListNode(0);
+        // 哨兵节点的下一个结点指向首节点
+        dummy.next = head;
 
-        //定义一个进位数的指针，用来存储当两数之和大于10的时候，
-        int carry = 0;
 
-        //定义一个可移动的指针，用来指向存储两个数之和的位置
-        ListNode cur = prev;
+        // 上阶段的最后一个结点，结点的初始化
+        ListNode pre = dummy;
+        // 本阶段的最后一个结点
+        ListNode end = dummy;
 
-        //当l1 不等于null或l2 不等于空时，就进入循环
-        while(l1 != null || l2 != null){
-
-            //如果l1 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int x = l1 != null ? l1.val : 0;
-            //如果l2 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int y = l2 != null ? l2.val : 0;
-            //将两个链表的值，进行相加，并加上进位数
-            int sum = x + y + carry;
-            //计算进位数
-            carry = sum / 10;
-            //计算两个数的和，此时排除超过10的请况（大于10，取余数）
-            sum = sum % 10;
-            //将求和数赋值给新链表的节点，
-            //注意这个时候不能直接将sum赋值给cur.next = sum。这时候会报，类型不匹配。
-            //所以这个时候要创一个新的节点，将值赋予节点
-            cur.next = new ListNode(sum);
-            //将新链表的节点后移
-            cur = cur.next;
-            //当链表l1不等于null的时候，将l1 的节点后移
-            if(l1 != null){
-                l1 = l1.next;
+        while(end.next != null){
+            // 此处是为了找到其中的k个字结点
+            for(int i = 0; i < k & end != null; i++){
+                end = end.next;
             }
-            //当链表l2不等于null的时候，将l1 的节点后移
-            if(l2 != null){
-                l2 = l2.next;
+            // 如果直接到头了说明不满足k个子节点
+            if(end == null){
+                break;
             }
+
+
+            // 此处是为了记录翻转始末的首结点
+            ListNode start = pre.next;
+            // 此处是为了记录下一阶段的起始点
+            ListNode nextStart = end.next;
+
+            // 此处是为了进行后面的翻转操作，断开此处链接，让后面翻转知道截断点在哪里
+            end.next = null;
+            // 翻转操作
+            pre.next = reverse(start);
+
+            // 反转之后，首节点实际上已经是最后一个结点了，为了和后面的划分链接，让其下一个结点，连接到下一个阶段的首节点
+            start.next = nextStart;
+            // pre再次来到下一阶段的上一个阶段 也就是本段的末尾结点
+            pre = start;
+            // 结束点，准备开始寻找下一个阶段的结束点
+            end = pre;
+            
         }
-        //如果最后两个数，相加的时候有进位数的时候，就将进位数，赋予链表的新节点。
-        //两数相加最多小于20，所以的的值最大只能时1
-        if(carry == 1){
-            cur.next = new ListNode(carry);
-        }
-        //返回链表头结点
-        return prev.next;
+
+        // 返回哨兵
+        return dummy.next;
 
     }
+    
+
+    // 交换操作
+    private ListNode reverse(ListNode head){
+        ListNode pre = null;
+        ListNode curr = head;
+
+        while(curr != null){
+            ListNode next = curr.next;
+            curr.next = pre;
+            pre = curr;
+            curr = next;
+        }
+
+        // 返回哨兵，此处是最新的翻转序列的起始点
+        return pre;
+    }
 }
+
+
 ```
 
-时间复杂度：O(max⁡(m,n))，其中 m 和 n 分别为两个链表的长度。我们要遍历两个链表的全部位置，而处理每个位置只需要 O 的时间。
+时间复杂度: O(n∗K) 最好的情况为 O(n) 最差的情况未 O(n^2)   
+空间复杂度: O(1) 除了几个必须的节点指针外，我们并没有占用其他空间
 
-空间复杂度：O(1)。注意返回值不计入空间复杂度。
 
 
