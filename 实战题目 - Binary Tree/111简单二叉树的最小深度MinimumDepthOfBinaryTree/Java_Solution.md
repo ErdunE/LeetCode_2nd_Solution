@@ -1,68 +1,49 @@
 ```
 /**
- * Definition for singly-linked list.
- * public class ListNode {
+ * Definition for a binary tree node.
+ * public class TreeNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
  * }
  */
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public int minDepth(TreeNode root) {
+
+        if(root == null){
+            return 0;
+        }
+
+        //这道题递归条件里分为三种情况
+        //1.左孩子和有孩子都为空的情况，说明到达了叶子节点，直接返回1即可
+        if(root.left == null && root.right == null){
+            return 1;
+        }
+
+        //2.如果左孩子和由孩子其中一个为空，那么需要返回比较大的那个孩子的深度
+        int leftNode = minDepth(root.left);
+        int rightNode = minDepth(root.right);
+        //这里其中一个节点为空，说明m1和m2有一个必然为0，所以可以返回m1 + m2 + 1;
+        if(root.left == null || root.right == null){
+            return leftNode + rightNode + 1;
+        }
+
+        //3.最后一种情况，也就是左右孩子都不为空，返回最小深度+1即可
+        return Math.min(leftNode, rightNode) + 1;
         
-        //定义一个新联表伪指针，用来指向头指针，返回结果
-        ListNode prev = new ListNode(0);
-
-        //定义一个进位数的指针，用来存储当两数之和大于10的时候，
-        int carry = 0;
-
-        //定义一个可移动的指针，用来指向存储两个数之和的位置
-        ListNode cur = prev;
-
-        //当l1 不等于null或l2 不等于空时，就进入循环
-        while(l1 != null || l2 != null){
-
-            //如果l1 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int x = l1 != null ? l1.val : 0;
-            //如果l2 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int y = l2 != null ? l2.val : 0;
-            //将两个链表的值，进行相加，并加上进位数
-            int sum = x + y + carry;
-            //计算进位数
-            carry = sum / 10;
-            //计算两个数的和，此时排除超过10的请况（大于10，取余数）
-            sum = sum % 10;
-            //将求和数赋值给新链表的节点，
-            //注意这个时候不能直接将sum赋值给cur.next = sum。这时候会报，类型不匹配。
-            //所以这个时候要创一个新的节点，将值赋予节点
-            cur.next = new ListNode(sum);
-            //将新链表的节点后移
-            cur = cur.next;
-            //当链表l1不等于null的时候，将l1 的节点后移
-            if(l1 != null){
-                l1 = l1.next;
-            }
-            //当链表l2不等于null的时候，将l1 的节点后移
-            if(l2 != null){
-                l2 = l2.next;
-            }
-        }
-        //如果最后两个数，相加的时候有进位数的时候，就将进位数，赋予链表的新节点。
-        //两数相加最多小于20，所以的的值最大只能时1
-        if(carry == 1){
-            cur.next = new ListNode(carry);
-        }
-        //返回链表头结点
-        return prev.next;
-
     }
 }
 ```
 
-时间复杂度：O(max⁡(m,n))，其中 m 和 n 分别为两个链表的长度。我们要遍历两个链表的全部位置，而处理每个位置只需要 O 的时间。
+时间复杂度：O(n) 递归过程中对每个节点都访问 1 次
 
-空间复杂度：O(1)。注意返回值不计入空间复杂度。
+空间复杂度：O(n) 用了额外的栈空间，栈的大小取决于二叉树的高度，二叉树最坏情况下的高度为 n
 
 
