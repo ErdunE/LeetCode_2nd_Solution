@@ -1,68 +1,64 @@
+DFS
 ```
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        
-        //定义一个新联表伪指针，用来指向头指针，返回结果
-        ListNode prev = new ListNode(0);
-
-        //定义一个进位数的指针，用来存储当两数之和大于10的时候，
-        int carry = 0;
-
-        //定义一个可移动的指针，用来指向存储两个数之和的位置
-        ListNode cur = prev;
-
-        //当l1 不等于null或l2 不等于空时，就进入循环
-        while(l1 != null || l2 != null){
-
-            //如果l1 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int x = l1 != null ? l1.val : 0;
-            //如果l2 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int y = l2 != null ? l2.val : 0;
-            //将两个链表的值，进行相加，并加上进位数
-            int sum = x + y + carry;
-            //计算进位数
-            carry = sum / 10;
-            //计算两个数的和，此时排除超过10的请况（大于10，取余数）
-            sum = sum % 10;
-            //将求和数赋值给新链表的节点，
-            //注意这个时候不能直接将sum赋值给cur.next = sum。这时候会报，类型不匹配。
-            //所以这个时候要创一个新的节点，将值赋予节点
-            cur.next = new ListNode(sum);
-            //将新链表的节点后移
-            cur = cur.next;
-            //当链表l1不等于null的时候，将l1 的节点后移
-            if(l1 != null){
-                l1 = l1.next;
-            }
-            //当链表l2不等于null的时候，将l1 的节点后移
-            if(l2 != null){
-                l2 = l2.next;
-            }
+    public TreeNode invertTree(TreeNode root) {
+        // 递归函数的终止条件，节点为空时返回
+        if(root == null){
+            return null;
         }
-        //如果最后两个数，相加的时候有进位数的时候，就将进位数，赋予链表的新节点。
-        //两数相加最多小于20，所以的的值最大只能时1
-        if(carry == 1){
-            cur.next = new ListNode(carry);
-        }
-        //返回链表头结点
-        return prev.next;
+        // 交换节点的左右子树
+        TreeNode temp = root.right;
+        root.right = root.left;
+        root.left = temp;
+
+        // 递归交换当前节点的左子树
+        invertTree(root.left);
+        // 递归交换当前节点的右子树
+        invertTree(root.right);
+
+        // 当前节点的左右子树全部交换完了，返回节点
+        return root;
 
     }
 }
 ```
 
-时间复杂度：O(max⁡(m,n))，其中 m 和 n 分别为两个链表的长度。我们要遍历两个链表的全部位置，而处理每个位置只需要 O 的时间。
+时间复杂度：每个节点都要访问一次，所以是O(n)    
+空间复杂度：最坏的情况，需要存放O(h)个函数调用(h是树高)，所以是O(h)
 
-空间复杂度：O(1)。注意返回值不计入空间复杂度。
+BFS
+```
+class Solution {
+    public TreeNode invertTree(TreeNode root) {
+        // 递归函数的终止条件，节点为空时返回
+        if(root == null){
+            return null;
+        }
 
+        //将二叉树中的节点逐层放入队列中，再迭代处理队列中的元素
+        LinkedList<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.add(root);
+        while(!queue.isEmpty()){
+            //每次都从队列中拿一个节点，并交换这个节点的左右子树
+            TreeNode temp = queue.poll();
+            TreeNode left = temp.left;
+            temp.left = temp.right;
+            temp.right = left;
 
+            //如果当前节点的左子树不为空，则放入队列等待后续处理
+            if(temp.left != null){
+                queue.add(temp.left);
+            }
+
+            //如果当前节点的右子树不为空，则放入队列等待后续处理
+            if(temp.right != null){
+                queue.add(temp.right);
+            }
+
+        }
+        return root;
+    }
+}
+```
+时间复杂度：每个节点都要访问一次，所以是O(n)    
+空间复杂度：最坏的情况下会包含所有的叶子节点，完全二叉树叶子节点是 n/2个，所以时间复杂度是 0(n)
