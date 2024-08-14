@@ -86,16 +86,16 @@
 | [94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 中等 | [二叉树的中序遍历/Binary Tree Inorder Traversal](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/94%E4%B8%AD%E7%AD%89%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86BinaryTreeInorderTraversal) | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/94%E4%B8%AD%E7%AD%89%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86BinaryTreeInorderTraversal/Java_Solution.md) | []() |
 | [98](https://leetcode.com/problems/validate-binary-search-tree/) | 中等 | [验证二叉搜索树/Validate Binary Search Tree]() | []() | []() | []() |
 | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                          | 简单 | [二叉树的最大深度/Maximum Depth of Binary Tree](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/104%E7%AE%80%E5%8D%95%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6MaximumDepthOfBinaryTree) | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/104%E7%AE%80%E5%8D%95%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6MaximumDepthOfBinaryTree/Java_Solution.md) | []() |        |
-| [105]()                                                         | 中等 | [从前序与中序遍历序列构造二叉树/Construct Binary Tree from Preorder and Inorder Traversal]() | []() | []() | []() |
+| [105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)                                                         | 中等 | [从前序与中序遍历序列构造二叉树/Construct Binary Tree from Preorder and Inorder Traversal]() | []() | []() | []() |
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)                                                          | 简单 | [二叉树的最小深度/Minimum Depth of Binary Tree](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/111%E7%AE%80%E5%8D%95%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6MinimumDepthOfBinaryTree) | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/111%E7%AE%80%E5%8D%95%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6MinimumDepthOfBinaryTree/Java_Solution.md) | []() |
-| [144]()                                                          | 中等 | [二叉树的前序遍历/Binary Tree Preorder Traversal]() | []() | []() | []() |
+| [144](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)                                                          | 中等 | [二叉树的前序遍历/Binary Tree Preorder Traversal]() | []() | []() | []() |
 | [226](https://leetcode.com/problems/invert-binary-tree/)                                                          | 简单 | [翻转二叉树/Invert Binary Tree](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/226%E7%AE%80%E5%8D%95%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91InvertBinaryTree) | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/226%E7%AE%80%E5%8D%95%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91InvertBinaryTree/Java_Solution.md) | []() |
-| [230]()                                                          | 中等 | [二叉搜索树中第K小的元素/Kth Smallest Element in a BST]() | []() | []() | []() |
-| [236]()                                                          | 中等 | [二叉树的最近公共祖先/Lowest Common Ancestor of a Binary Tree]() | []() | []() | []() |
-| [297]()                                                          | 困难 | [二叉树的序列化与反序列化/Seriallize and Deserialize Binary Tree]() | []() | []() | []() |
-| [429]()                                                          | 简单 | [N叉树的层序遍历/N-ary Tree Level Order Traversal]() | []() | []() | []() |
-| [589]()                                                          | 简单 | [N叉树的前序遍历/N-ary Tree  Preorder Traversal]() | []() | []() | []() |
-| [590]()                                                          | 简单 | [N叉树的后序遍历/N-ary Tree Postorder Traversal]() | []() | []() | []() |
+| [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                          | 中等 | [二叉搜索树中第K小的元素/Kth Smallest Element in a BST]() | []() | []() | []() |
+| [236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)                                                          | 中等 | [二叉树的最近公共祖先/Lowest Common Ancestor of a Binary Tree]() | []() | []() | []() |
+| [297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)                                                          | 困难 | [二叉树的序列化与反序列化/Seriallize and Deserialize Binary Tree]() | []() | []() | []() |
+| [429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/)                                                          | 简单 | [N叉树的层序遍历/N-ary Tree Level Order Traversal]() | []() | []() | []() |
+| [589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)                                                          | 简单 | [N叉树的前序遍历/N-ary Tree  Preorder Traversal]() | []() | []() | []() |
+| [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)                                                          | 简单 | [N叉树的后序遍历/N-ary Tree Postorder Traversal]() | []() | []() | []() |
 ---
 
 ### **实战题目 - 分治**
@@ -104,10 +104,10 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [17]()   | 中等 | [电话号码的字母组合/Letter Combinations of a Phone Number]() | []() | []() | []() |
-| [50]()   | 中等 | [Pow(x,n)]() | []() | []() | []() |
-| [78]()   | 中等 | [子集/Subsets]() | []() | []() | []() |
-| [169]()  | 简单 | [求众数/Majority Element]() | []() | []() | []() |
+| [17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)   | 中等 | [电话号码的字母组合/Letter Combinations of a Phone Number]() | []() | []() | []() |
+| [50](https://leetcode.com/problems/powx-n/description/)   | 中等 | [Pow(x,n)]() | []() | []() | []() |
+| [78](https://leetcode.com/problems/subsets/description/)   | 中等 | [子集/Subsets]() | []() | []() | []() |
+| [169](https://leetcode.com/problems/majority-element/description/)  | 简单 | [求众数/Majority Element]() | []() | []() | []() |
 
 ---
 
@@ -117,12 +117,12 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [102]()  | 中等 | [二叉树的层次遍历/Binary Tree Level Order Traversal]() | []() | []() | []() |
-| [127]()  | 中等 | [单词接龙/Word Ladder]() | []() | []() | []() |
-| [200]()  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
-| [433]()  | 中等 | [最小基因变化/Minimum Genetic Mutation]() | []() | []() | []() |
-| [515]()  | 中等 | [在每个树行中找最大值/Find Largest Value in Each Tree Row]() | []() | []() | []() |
-| [529]()  | 中等 | [扫雷游戏/Minesweeper]() | []() | []() | []() |
+| [102](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)  | 中等 | [二叉树的层次遍历/Binary Tree Level Order Traversal]() | []() | []() | []() |
+| [127](https://leetcode.com/problems/word-ladder/description/)  | 中等 | [单词接龙/Word Ladder]() | []() | []() | []() |
+| [200](https://leetcode.com/problems/number-of-islands/description/)  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
+| [433](https://leetcode.com/problems/minimum-genetic-mutation/description/)  | 中等 | [最小基因变化/Minimum Genetic Mutation]() | []() | []() | []() |
+| [515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)  | 中等 | [在每个树行中找最大值/Find Largest Value in Each Tree Row]() | []() | []() | []() |
+| [529](https://leetcode.com/problems/minesweeper/description/)  | 中等 | [扫雷游戏/Minesweeper]() | []() | []() | []() |
 ---
 
 ### **实战题目 - 剪枝**
@@ -131,9 +131,9 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [36]()   | 中等 | [有效的数独/valid Sudoku]() | []() | []() | []() |
-| [37]()   | 困难 | [解数独/Sudoku Solver]() | []() | []() | []() |
-| [51]()   | 困难 | [N皇后/N-Queens]() | []() | []() | []() |
+| [36](https://leetcode.com/problems/valid-sudoku/description/)   | 中等 | [有效的数独/valid Sudoku]() | []() | []() | []() |
+| [37](https://leetcode.com/problems/sudoku-solver/)   | 困难 | [解数独/Sudoku Solver]() | []() | []() | []() |
+| [51](https://leetcode.com/problems/n-queens/description/)   | 困难 | [N皇后/N-Queens]() | []() | []() | []() |
 ---
 
 ### **实战题目 - 二分查找**
@@ -142,9 +142,9 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [33]()   | 中等 | [搜索旋转排序数组/Search in Rotated Sorted Array]() | []() | []() | []() |
-| [69]()   | 简单 | [x 的平方根/Sqrt(x)]() | []() | []() | []() |
-| [367]()  | 简单 | [有效的完全平方数/Valid Perfect Square]() | []() | []() | []() |
+| [33](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)   | 中等 | [搜索旋转排序数组/Search in Rotated Sorted Array]() | []() | []() | []() |
+| [69](https://leetcode.com/problems/sqrtx/description/)   | 简单 | [x 的平方根/Sqrt(x)]() | []() | []() | []() |
+| [367](https://leetcode.com/problems/valid-perfect-square/description/)  | 简单 | [有效的完全平方数/Valid Perfect Square]() | []() | []() | []() |
 
 ---
 
@@ -154,10 +154,10 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [53]()   |      | [Maximum Subarray]() | []() | []() | []() |
-| [122]()  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
-| [455]()  | 简单 | [分发饼干/Assign Cookies]() | []() | []() | []() |
-| [860]()  | 简单 | [柠檬水找零/Lemonade Change]() | []() | []() | []() |
+| [53](https://leetcode.com/problems/maximum-subarray/description/)   |      | [Maximum Subarray]() | []() | []() | []() |
+| [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
+| [455](https://leetcode.com/problems/assign-cookies/description/)  | 简单 | [分发饼干/Assign Cookies]() | []() | []() | []() |
+| [860](https://leetcode.com/problems/lemonade-change/description/)  | 简单 | [柠檬水找零/Lemonade Change]() | []() | []() | []() |
 
 ---
 
@@ -167,34 +167,34 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [32]()   | 中等 | [最长有效括号/Longest Valid Parentheses]() | []() | []() | []() |
-| [45]()   | 困难 | [跳跃游戏 II/Jump Game II]() | []() | []() | []() |
-| [55]()   | 困难 | [跳跃游戏/Jump Game]() | []() | []() | []() |
-| [62]()   | 中等 | [不同路径/Unique Paths]() | []() | []() | []() |
-| [63]()   | 中等 | [不同路径 II/Unique Paths II]() | []() | []() | []() |
-| [64]()   | 中等 | [最小路径和/Minimum Path Sum]() | []() | []() | []() |
-| [72]()   | 困难 | [编辑距离/Edit Distance]() | []() | []() | []() |
-| [91]()   | 中等 | [解码方法/Decode Ways]() | []() | []() | []() |
-| [120]()  | 中等 | [三角形最小路径和/Triangle]() | []() | []() | []() |
-| [121]()  | 简单 | [买卖股票的最佳时机/Best Time to Buy and Sell Stock]() | []() | []() | []() |
-| [122]()  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
-| [123]()  | 困难 | [买卖股票的最佳时机 III/Best Time to Buy and Sell Stock III]() | []() | []() | []() |
-| [152]()  | 中等 | [乘积最大子序列/Maximum Product Subarray]() | []() | []() | []() |
-| [188]()  | 困难 | [买卖股票的最佳时机 IV/Best Time to Buy and Sell Stock IV]() | []() | []() | []() |
-| [198]()  | 简单 | [打家劫舍/House Robber]() | []() | []() | []() |
-| [213]()  | 中等 | [打家劫舍 II/House Robber II]() | []() | []() | []() |
-| [221]()  | 中等 | [最大正方形/Maximum Square]() | []() | []() | []() |
-| [309]()  | 中等 | [最佳买卖股票时机含冷冻期/Best Time to Buy and Sell Stock with Cooldown]() | []() | []() | []() |
-| [322]()  | 中等 | [零钱兑换/Coin Change]() | []() | []() | []() |
-| [363]()  | 困难 | [矩形区域不超过 K 的最大数值和/Max Sum of Rectangle No Larger Than K]() | []() | []() | []() |
-| [403]()  | 困难 | [青蛙过河/Frog Jump]() | []() | []() | []() |
-| [410]()  | 困难 | [分割数组的最大值/Split Array Largest Sum]() | []() | []() | []() |
-| [518]()  | 中等 | [零钱兑换 II/Coin Change II]() | []() | []() | []() |
-| [552]()  | 困难 | [学生出勤记录 II/Student Attendance Record II]() | []() | []() | []() |
-| [621]()  | 中等 | [任务调度器/Task Scheduler]() | []() | []() | []() |
-| [647]()  | 中等 | [回文子串/Palindromic Substrings]() | []() | []() | []() |
-| [714]()  | 中等 | [买卖股票的最佳时机含手续费/Best Time to Buy and Sell Stock with Transaction Fee]() | []() | []() | []() |
-| [980]()  | 困难 | [不同路径 IIIUnique Paths III]() | []() | []() | []() |
+| [32](https://leetcode.com/problems/longest-valid-parentheses/description/)   | 中等 | [最长有效括号/Longest Valid Parentheses]() | []() | []() | []() |
+| [45](https://leetcode.com/problems/jump-game-ii/description/)   | 困难 | [跳跃游戏 II/Jump Game II]() | []() | []() | []() |
+| [55](https://leetcode.com/problems/jump-game/description/)   | 困难 | [跳跃游戏/Jump Game]() | []() | []() | []() |
+| [62](https://leetcode.com/problems/unique-paths/description/)   | 中等 | [不同路径/Unique Paths]() | []() | []() | []() |
+| [63](https://leetcode.com/problems/unique-paths-ii/)   | 中等 | [不同路径 II/Unique Paths II]() | []() | []() | []() |
+| [64](https://leetcode.com/problems/minimum-path-sum/)   | 中等 | [最小路径和/Minimum Path Sum]() | []() | []() | []() |
+| [72](https://leetcode.com/problems/edit-distance/description/)   | 困难 | [编辑距离/Edit Distance]() | []() | []() | []() |
+| [91](https://leetcode.com/problems/decode-ways/description/)   | 中等 | [解码方法/Decode Ways]() | []() | []() | []() |
+| [120](https://leetcode.com/problems/triangle/description/)  | 中等 | [三角形最小路径和/Triangle]() | []() | []() | []() |
+| [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)  | 简单 | [买卖股票的最佳时机/Best Time to Buy and Sell Stock]() | []() | []() | []() |
+| [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
+| [123](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)  | 困难 | [买卖股票的最佳时机 III/Best Time to Buy and Sell Stock III]() | []() | []() | []() |
+| [152](https://leetcode.com/problems/maximum-product-subarray/description/)  | 中等 | [乘积最大子序列/Maximum Product Subarray]() | []() | []() | []() |
+| [188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/)  | 困难 | [买卖股票的最佳时机 IV/Best Time to Buy and Sell Stock IV]() | []() | []() | []() |
+| [198](https://leetcode.com/problems/house-robber/description/)  | 简单 | [打家劫舍/House Robber]() | []() | []() | []() |
+| [213](https://leetcode.com/problems/house-robber-ii/description/)  | 中等 | [打家劫舍 II/House Robber II]() | []() | []() | []() |
+| [221](https://leetcode.com/problems/maximal-square/description/)  | 中等 | [最大正方形/Maximum Square]() | []() | []() | []() |
+| [309](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)  | 中等 | [最佳买卖股票时机含冷冻期/Best Time to Buy and Sell Stock with Cooldown]() | []() | []() | []() |
+| [322](https://leetcode.com/problems/coin-change/description/)  | 中等 | [零钱兑换/Coin Change]() | []() | []() | []() |
+| [363](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/description/)  | 困难 | [矩形区域不超过 K 的最大数值和/Max Sum of Rectangle No Larger Than K]() | []() | []() | []() |
+| [403](https://leetcode.com/problems/frog-jump/description/)  | 困难 | [青蛙过河/Frog Jump]() | []() | []() | []() |
+| [410](https://leetcode.com/problems/split-array-largest-sum/description/)  | 困难 | [分割数组的最大值/Split Array Largest Sum]() | []() | []() | []() |
+| [518](https://leetcode.com/problems/coin-change-ii/description/)  | 中等 | [零钱兑换 II/Coin Change II]() | []() | []() | []() |
+| [552](https://leetcode.com/problems/student-attendance-record-ii/description/)  | 困难 | [学生出勤记录 II/Student Attendance Record II]() | []() | []() | []() |
+| [621](https://leetcode.com/problems/task-scheduler/description/)  | 中等 | [任务调度器/Task Scheduler]() | []() | []() | []() |
+| [647](https://leetcode.com/problems/palindromic-substrings/description/)  | 中等 | [回文子串/Palindromic Substrings]() | []() | []() | []() |
+| [714](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)  | 中等 | [买卖股票的最佳时机含手续费/Best Time to Buy and Sell Stock with Transaction Fee]() | []() | []() | []() |
+| [980](https://leetcode.com/problems/unique-paths-iii/description/)  | 困难 | [不同路径 IIIUnique Paths III]() | []() | []() | []() |
 
 ---
 
@@ -204,13 +204,13 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [100]()  |      | [Same Tree]() | []() | []() | []() |
-| [101]()  |      | [Symmetric Tree]() | []() | []() | []() |
-| [108]()  |      | [Convert Sorted Array to Binary Search Tree]() | []() | []() | []() |
-| [110]()  |      | [Balanced Binary Tree]() | []() | []() | []() |
-| [112]()  |      | [Path Sum]() | []() | []() | []() |
-| [208]()  | 中等 | [实现 Trie (前缀树)/Implement Trie (Prefix Tree)]() | []() | []() | []() |
-| [212]()  | 困难 | [单词搜索 II/Word Search II]() | []() | []() | []() |
+| [100](https://leetcode.com/problems/same-tree/description/)  |      | [Same Tree]() | []() | []() | []() |
+| [101](https://leetcode.com/problems/symmetric-tree/)  |      | [Symmetric Tree]() | []() | []() | []() |
+| [108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)  |      | [Convert Sorted Array to Binary Search Tree]() | []() | []() | []() |
+| [110](https://leetcode.com/problems/balanced-binary-tree/)  |      | [Balanced Binary Tree]() | []() | []() | []() |
+| [112](https://leetcode.com/problems/path-sum/)  |      | [Path Sum]() | []() | []() | []() |
+| [208](https://leetcode.com/problems/implement-trie-prefix-tree/description/)  | 中等 | [实现 Trie (前缀树)/Implement Trie (Prefix Tree)]() | []() | []() | []() |
+| [212](https://leetcode.com/problems/word-search-ii/description/)  | 困难 | [单词搜索 II/Word Search II]() | []() | []() | []() |
 
 ---
 
@@ -220,11 +220,11 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [52]()   | 困难 | [N皇后 II/N-Queens II]() | []() | []() | []() |
-| [190]()  | 简单 | [颠倒二进制位/Reverse Bits]() | []() | []() | []() |
-| [191]()  | 简单 | [位1的个数/Number of 1 Bits]() | []() | []() | []() |
-| [231]()  | 简单 | [2的幂/Power of Two]() | []() | []() | []() |
-| [338]()  | 中等 | [比特位计数/Counting Bits]() | []() | []() | []() |
+| [52](https://leetcode.com/problems/n-queens-ii/description/)   | 困难 | [N皇后 II/N-Queens II]() | []() | []() | []() |
+| [190](https://leetcode.com/problems/reverse-bits/)  | 简单 | [颠倒二进制位/Reverse Bits]() | []() | []() | []() |
+| [191](https://leetcode.com/problems/number-of-1-bits/description/)  | 简单 | [位1的个数/Number of 1 Bits]() | []() | []() | []() |
+| [231](https://leetcode.com/problems/power-of-two/description/)  | 简单 | [2的幂/Power of Two]() | []() | []() | []() |
+| [338](https://leetcode.com/problems/counting-bits/description/)  | 中等 | [比特位计数/Counting Bits]() | []() | []() | []() |
 
 ---
 
@@ -234,7 +234,7 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [146]()  | 困难 | [LRU缓存机制/LRU-catch]() | []() | []() | []() |
+| [146](https://leetcode.com/problems/lru-cache/description/)  | 困难 | [LRU缓存机制/LRU-catch]() | []() | []() | []() |
 
 ---
 
@@ -244,9 +244,9 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [130]()  | 中等 | [被围绕的区域/Surrounded Regions]() | []() | []() | []() |
-| [200]()  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
-| [547]()  | 中等 | [朋友圈/Number of Provinces]() | []() | []() | []() |
+| [130](https://leetcode.com/problems/surrounded-regions/description/)  | 中等 | [被围绕的区域/Surrounded Regions]() | []() | []() | []() |
+| [200](https://leetcode.com/problems/number-of-islands/description/)  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
+| [547](https://leetcode.com/problems/number-of-provinces/description/)  | 中等 | [朋友圈/Number of Provinces]() | []() | []() | []() |
 ---
 
 ### **其他实战题目**
@@ -255,23 +255,23 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              |                             Java                             | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :----: |
-| [1]()    | 简单 | [两数之和/ Two Sum]() | []() | []() | []() |
-| [7]()    |      | [Reverse Integer]() | []() | []() | []() |
-| [9]()    |      | [Palindrome Number]() | []() | []() | []() |
-| [13]()   |      | [Roman to Integer]() | []() | []() | []() |
-| [14]()   |      | [Longest Common Prefix]() | []() | []() | []() |
-| [15]()   | 中等 | [三数之和/ Three Sum]() | []() | []() | []() |
-| [20]()   | 简单 | [有效的括号/Valid Parentheses]() | []() | []() | []() |
-| [42]()   | 困难 | [接雨水/Trapping Rain Water]() | []() | []() | []() |
-| [49]()   | 中等 | [字母异位词分组/Group Anagrams]() | []() | []() | []() |
-| [58]()   |      | [Length of Last Word]() | []() | []() | []() |
-| [67]()   |      | [Add Binary]() | []() | []() | []() |
-| [84]()   | 困难 | [柱状图中最大的矩形/Largest Rectangle in Histogram]() | []() | []() | []() |
-| [155]()  | 简单 | [最小栈/Min Stack]() | []() | []() | []() |
-| [239]()  | 困难 | [滑动窗口最大值/Sliding Window Maximum]() | []() | []() | []() |
-| [242]()  | 简单 | [有效的字母异位词/Valid Anagram]() | []() | []() | []() |
-| [253]()  |      | [Meeting Rooms II]() | []() | []() | []() |
-| [641]()  | 中等 | [设计循环双端队列/Design Circular Deque]() | []() | []() | []() |
+| [1](https://leetcode.com/problems/two-sum/description/)    | 简单 | [两数之和/ Two Sum]() | []() | []() | []() |
+| [7](https://leetcode.com/problems/reverse-integer/description/)    |      | [Reverse Integer]() | []() | []() | []() |
+| [9](https://leetcode.com/problems/palindrome-number/description/)    |      | [Palindrome Number]() | []() | []() | []() |
+| [13](https://leetcode.com/problems/roman-to-integer/description/)   |      | [Roman to Integer]() | []() | []() | []() |
+| [14](https://leetcode.com/problems/longest-common-prefix/)   |      | [Longest Common Prefix]() | []() | []() | []() |
+| [15](https://leetcode.com/problems/3sum/)   | 中等 | [三数之和/ Three Sum]() | []() | []() | []() |
+| [20](https://leetcode.com/problems/valid-parentheses/description/)   | 简单 | [有效的括号/Valid Parentheses]() | []() | []() | []() |
+| [42](https://leetcode.com/problems/trapping-rain-water/description/)   | 困难 | [接雨水/Trapping Rain Water]() | []() | []() | []() |
+| [49](https://leetcode.com/problems/group-anagrams/description/)   | 中等 | [字母异位词分组/Group Anagrams]() | []() | []() | []() |
+| [58](https://leetcode.com/problems/length-of-last-word/description/)   |      | [Length of Last Word]() | []() | []() | []() |
+| [67](https://leetcode.com/problems/add-binary/description/)   |      | [Add Binary]() | []() | []() | []() |
+| [84](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)   | 困难 | [柱状图中最大的矩形/Largest Rectangle in Histogram]() | []() | []() | []() |
+| [155](https://leetcode.com/problems/min-stack/description/)  | 简单 | [最小栈/Min Stack]() | []() | []() | []() |
+| [239](https://leetcode.com/problems/sliding-window-maximum/description/)  | 困难 | [滑动窗口最大值/Sliding Window Maximum]() | []() | []() | []() |
+| [242](https://leetcode.com/problems/valid-anagram/description/)  | 简单 | [有效的字母异位词/Valid Anagram]() | []() | []() | []() |
+| [253](https://leetcode.com/problems/meeting-rooms-ii/description/)  |      | [Meeting Rooms II]() | []() | []() | []() |
+| [641](https://leetcode.com/problems/design-circular-deque/description/)  | 中等 | [设计循环双端队列/Design Circular Deque]() | []() | []() | []() |
 
 ---
 
@@ -281,13 +281,13 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              |                             Java                             | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :----: |
-| [3]()    |      | [Longest Substring Without Repeating Characters]() | []() | []() | []() |
-| [27]()   |      | [Remove Element]() | []() | []() | []() |
-| [28]()   |      | [Implement strStr()]() | []() | []() | []() |
-| [35]()   |      | [Search Insert Position]() | []() | []() | []() |
-| [83]()   |      | [Remove Duplicates from Sorted List]() | []() | []() | []() |
-| [125]()  |      | [Vaild Palindrome]() | []() | []() | []() |
-| [136]()  |      | [Single Number]() | []() | []() | []() |
+| [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)    |      | [Longest Substring Without Repeating Characters]() | []() | []() | []() |
+| [27](https://leetcode.com/problems/remove-element/description/)   |      | [Remove Element]() | []() | []() | []() |
+| [28](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)   |      | [Implement strStr()]() | []() | []() | []() |
+| [35](https://leetcode.com/problems/search-insert-position/description/)   |      | [Search Insert Position]() | []() | []() | []() |
+| [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)   |      | [Remove Duplicates from Sorted List]() | []() | []() | []() |
+| [125](https://leetcode.com/problems/valid-palindrome/description/)  |      | [Vaild Palindrome]() | []() | []() | []() |
+| [136](https://leetcode.com/problems/single-number/description/)  |      | [Single Number]() | []() | []() | []() |
 
 ---
 
