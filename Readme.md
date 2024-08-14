@@ -82,20 +82,20 @@
 
 | 题号                                                         | 难度 | 题目名称及解答                                               |                             C++                              |                             Java                             | Python |
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :----: |
-| [22](https://leetcode.com/problems/generate-parentheses/)    | 中等 | [括号生成/Generate Paraentheses]() | []() | []() | []() |
-| [94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 中等 | [二叉树的中序遍历/Binary Tree Inorder Traversal]() | []() | []() | []() |
+| [22](https://leetcode.com/problems/generate-parentheses/)    | 中等 | [括号生成/Generate Paraentheses]() | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/22%E4%B8%AD%E7%AD%89%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90GenerateParaentheses/Java_Solution.md) | []() |
+| [94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 中等 | [二叉树的中序遍历/Binary Tree Inorder Traversal]() | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/94%E4%B8%AD%E7%AD%89%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86BinaryTreeInorderTraversal/Java_Solution.md) | []() |
 | [98](https://leetcode.com/problems/validate-binary-search-tree/) | 中等 | [验证二叉搜索树/Validate Binary Search Tree]() | []() | []() | []() |
-| 104                                                          | 简单 | [二叉树的最大深度/Maximum Depth of Binary Tree]() | []() | []() | []() |        |
-| 105                                                          | 中等 | [从前序与中序遍历序列构造二叉树/Construct Binary Tree from Preorder and Inorder Traversal]() | []() | []() | []() |
-| 111                                                          | 简单 | [二叉树的最小深度/Minimum Depth of Binary Tree]() | []() | []() | []() |
-| 144                                                          | 中等 | [二叉树的前序遍历/Binary Tree Preorder Traversal]() | []() | []() | []() |
-| 226                                                          | 简单 | [翻转二叉树/Invert Binary Tree]() | []() | []() | []() |
-| 230                                                          | 中等 | [二叉搜索树中第K小的元素/Kth Smallest Element in a BST]() | []() | []() | []() |
-| 236                                                          | 中等 | [二叉树的最近公共祖先/Lowest Common Ancestor of a Binary Tree]() | []() | []() | []() |
-| 297                                                          | 困难 | [二叉树的序列化与反序列化/Seriallize and Deserialize Binary Tree]() | []() | []() | []() |
-| 429                                                          | 简单 | [N叉树的层序遍历/N-ary Tree Level Order Traversal]() | []() | []() | []() |
-| 589                                                          | 简单 | [N叉树的前序遍历/N-ary Tree  Preorder Traversal]() | []() | []() | []() |
-| 590                                                          | 简单 | [N叉树的后序遍历/N-ary Tree Postorder Traversal]() | []() | []() | []() |
+| [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                          | 简单 | [二叉树的最大深度/Maximum Depth of Binary Tree]() | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/104%E7%AE%80%E5%8D%95%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6MaximumDepthOfBinaryTree/Java_Solution.md) | []() |        |
+| [105]()                                                         | 中等 | [从前序与中序遍历序列构造二叉树/Construct Binary Tree from Preorder and Inorder Traversal]() | []() | []() | []() |
+| [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)                                                          | 简单 | [二叉树的最小深度/Minimum Depth of Binary Tree]() | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/111%E7%AE%80%E5%8D%95%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6MinimumDepthOfBinaryTree/Java_Solution.md) | []() |
+| [144]()                                                          | 中等 | [二叉树的前序遍历/Binary Tree Preorder Traversal]() | []() | []() | []() |
+| [226]()                                                          | 简单 | [翻转二叉树/Invert Binary Tree]() | []() | []() | []() |
+| [230]()                                                          | 中等 | [二叉搜索树中第K小的元素/Kth Smallest Element in a BST]() | []() | []() | []() |
+| [236]()                                                          | 中等 | [二叉树的最近公共祖先/Lowest Common Ancestor of a Binary Tree]() | []() | []() | []() |
+| [297]()                                                          | 困难 | [二叉树的序列化与反序列化/Seriallize and Deserialize Binary Tree]() | []() | []() | []() |
+| [429]()                                                          | 简单 | [N叉树的层序遍历/N-ary Tree Level Order Traversal]() | []() | []() | []() |
+| [589]()                                                          | 简单 | [N叉树的前序遍历/N-ary Tree  Preorder Traversal]() | []() | []() | []() |
+| [590]()                                                          | 简单 | [N叉树的后序遍历/N-ary Tree Postorder Traversal]() | []() | []() | []() |
 ---
 
 ### **实战题目 - 分治**
@@ -104,10 +104,10 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 17   | 中等 | [电话号码的字母组合/Letter Combinations of a Phone Number]() | []() | []() | []() |
-| 50   | 中等 | [Pow(x,n)]() | []() | []() | []() |
-| 78   | 中等 | [子集/Subsets]() | []() | []() | []() |
-| 169  | 简单 | [求众数/Majority Element]() | []() | []() | []() |
+| [17]()   | 中等 | [电话号码的字母组合/Letter Combinations of a Phone Number]() | []() | []() | []() |
+| [50]()   | 中等 | [Pow(x,n)]() | []() | []() | []() |
+| [78]()   | 中等 | [子集/Subsets]() | []() | []() | []() |
+| [169]()  | 简单 | [求众数/Majority Element]() | []() | []() | []() |
 
 ---
 
@@ -117,12 +117,12 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 102  | 中等 | [二叉树的层次遍历/Binary Tree Level Order Traversal]() | []() | []() | []() |
-| 127  | 中等 | [单词接龙/Word Ladder]() | []() | []() | []() |
-| 200  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
-| 433  | 中等 | [最小基因变化/Minimum Genetic Mutation]() | []() | []() | []() |
-| 515  | 中等 | [在每个树行中找最大值/Find Largest Value in Each Tree Row]() | []() | []() | []() |
-| 529  | 中等 | [扫雷游戏/Minesweeper]() | []() | []() | []() |
+| [102]()  | 中等 | [二叉树的层次遍历/Binary Tree Level Order Traversal]() | []() | []() | []() |
+| [127]()  | 中等 | [单词接龙/Word Ladder]() | []() | []() | []() |
+| [200]()  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
+| [433]()  | 中等 | [最小基因变化/Minimum Genetic Mutation]() | []() | []() | []() |
+| [515]()  | 中等 | [在每个树行中找最大值/Find Largest Value in Each Tree Row]() | []() | []() | []() |
+| [529]()  | 中等 | [扫雷游戏/Minesweeper]() | []() | []() | []() |
 ---
 
 ### **实战题目 - 剪枝**
@@ -131,9 +131,9 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 36   | 中等 | [有效的数独/valid Sudoku]() | []() | []() | []() |
-| 37   | 困难 | [解数独/Sudoku Solver]() | []() | []() | []() |
-| 51   | 困难 | [N皇后/N-Queens]() | []() | []() | []() |
+| [36]()   | 中等 | [有效的数独/valid Sudoku]() | []() | []() | []() |
+| [37]()   | 困难 | [解数独/Sudoku Solver]() | []() | []() | []() |
+| [51]()   | 困难 | [N皇后/N-Queens]() | []() | []() | []() |
 ---
 
 ### **实战题目 - 二分查找**
@@ -142,9 +142,9 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 33   | 中等 | [搜索旋转排序数组/Search in Rotated Sorted Array]() | []() | []() | []() |
-| 69   | 简单 | [x 的平方根/Sqrt(x)]() | []() | []() | []() |
-| 367  | 简单 | [有效的完全平方数/Valid Perfect Square]() | []() | []() | []() |
+| [33]()   | 中等 | [搜索旋转排序数组/Search in Rotated Sorted Array]() | []() | []() | []() |
+| [69]()   | 简单 | [x 的平方根/Sqrt(x)]() | []() | []() | []() |
+| [367]()  | 简单 | [有效的完全平方数/Valid Perfect Square]() | []() | []() | []() |
 
 ---
 
@@ -154,10 +154,10 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 53   |      | [Maximum Subarray]() | []() | []() | []() |
-| 122  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
-| 455  | 简单 | [分发饼干/Assign Cookies]() | []() | []() | []() |
-| 860  | 简单 | [柠檬水找零/Lemonade Change]() | []() | []() | []() |
+| [53]()   |      | [Maximum Subarray]() | []() | []() | []() |
+| [122]()  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
+| [455]()  | 简单 | [分发饼干/Assign Cookies]() | []() | []() | []() |
+| [860]()  | 简单 | [柠檬水找零/Lemonade Change]() | []() | []() | []() |
 
 ---
 
@@ -167,34 +167,34 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 32   | 中等 | [最长有效括号/Longest Valid Parentheses]() | []() | []() | []() |
-| 45   | 困难 | [跳跃游戏 II/Jump Game II]() | []() | []() | []() |
-| 55   | 困难 | [跳跃游戏/Jump Game]() | []() | []() | []() |
-| 62   | 中等 | [不同路径/Unique Paths]() | []() | []() | []() |
-| 63   | 中等 | [不同路径 II/Unique Paths II]() | []() | []() | []() |
-| 64   | 中等 | [最小路径和/Minimum Path Sum]() | []() | []() | []() |
-| 72   | 困难 | [编辑距离/Edit Distance]() | []() | []() | []() |
-| 91   | 中等 | [解码方法/Decode Ways]() | []() | []() | []() |
-| 120  | 中等 | [三角形最小路径和/Triangle]() | []() | []() | []() |
-| 121  | 简单 | [买卖股票的最佳时机/Best Time to Buy and Sell Stock]() | []() | []() | []() |
-| 122  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
-| 123  | 困难 | [买卖股票的最佳时机 III/Best Time to Buy and Sell Stock III]() | []() | []() | []() |
-| 152  | 中等 | [乘积最大子序列/Maximum Product Subarray]() | []() | []() | []() |
-| 188  | 困难 | [买卖股票的最佳时机 IV/Best Time to Buy and Sell Stock IV]() | []() | []() | []() |
-| 198  | 简单 | [打家劫舍/House Robber]() | []() | []() | []() |
-| 213  | 中等 | [打家劫舍 II/House Robber II]() | []() | []() | []() |
-| 221  | 中等 | [最大正方形/Maximum Square]() | []() | []() | []() |
-| 309  | 中等 | [最佳买卖股票时机含冷冻期/Best Time to Buy and Sell Stock with Cooldown]() | []() | []() | []() |
-| 322  | 中等 | [零钱兑换/Coin Change]() | []() | []() | []() |
-| 363  | 困难 | [矩形区域不超过 K 的最大数值和/Max Sum of Rectangle No Larger Than K]() | []() | []() | []() |
-| 403  | 困难 | [青蛙过河/Frog Jump]() | []() | []() | []() |
-| 410  | 困难 | [分割数组的最大值/Split Array Largest Sum]() | []() | []() | []() |
-| 518  | 中等 | [零钱兑换 II/Coin Change II]() | []() | []() | []() |
-| 552  | 困难 | [学生出勤记录 II/Student Attendance Record II]() | []() | []() | []() |
-| 621  | 中等 | [任务调度器/Task Scheduler]() | []() | []() | []() |
-| 647  | 中等 | [回文子串/Palindromic Substrings]() | []() | []() | []() |
-| 714  | 中等 | [买卖股票的最佳时机含手续费/Best Time to Buy and Sell Stock with Transaction Fee]() | []() | []() | []() |
-| 980  | 困难 | [不同路径 IIIUnique Paths III]() | []() | []() | []() |
+| [32]()   | 中等 | [最长有效括号/Longest Valid Parentheses]() | []() | []() | []() |
+| [45]()   | 困难 | [跳跃游戏 II/Jump Game II]() | []() | []() | []() |
+| [55]()   | 困难 | [跳跃游戏/Jump Game]() | []() | []() | []() |
+| [62]()   | 中等 | [不同路径/Unique Paths]() | []() | []() | []() |
+| [63]()   | 中等 | [不同路径 II/Unique Paths II]() | []() | []() | []() |
+| [64]()   | 中等 | [最小路径和/Minimum Path Sum]() | []() | []() | []() |
+| [72]()   | 困难 | [编辑距离/Edit Distance]() | []() | []() | []() |
+| [91]()   | 中等 | [解码方法/Decode Ways]() | []() | []() | []() |
+| [120]()  | 中等 | [三角形最小路径和/Triangle]() | []() | []() | []() |
+| [121]()  | 简单 | [买卖股票的最佳时机/Best Time to Buy and Sell Stock]() | []() | []() | []() |
+| [122]()  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
+| [123]()  | 困难 | [买卖股票的最佳时机 III/Best Time to Buy and Sell Stock III]() | []() | []() | []() |
+| [152]()  | 中等 | [乘积最大子序列/Maximum Product Subarray]() | []() | []() | []() |
+| [188]()  | 困难 | [买卖股票的最佳时机 IV/Best Time to Buy and Sell Stock IV]() | []() | []() | []() |
+| [198]()  | 简单 | [打家劫舍/House Robber]() | []() | []() | []() |
+| [213]()  | 中等 | [打家劫舍 II/House Robber II]() | []() | []() | []() |
+| [221]()  | 中等 | [最大正方形/Maximum Square]() | []() | []() | []() |
+| [309]()  | 中等 | [最佳买卖股票时机含冷冻期/Best Time to Buy and Sell Stock with Cooldown]() | []() | []() | []() |
+| [322]()  | 中等 | [零钱兑换/Coin Change]() | []() | []() | []() |
+| [363]()  | 困难 | [矩形区域不超过 K 的最大数值和/Max Sum of Rectangle No Larger Than K]() | []() | []() | []() |
+| [403]()  | 困难 | [青蛙过河/Frog Jump]() | []() | []() | []() |
+| [410]()  | 困难 | [分割数组的最大值/Split Array Largest Sum]() | []() | []() | []() |
+| [518]()  | 中等 | [零钱兑换 II/Coin Change II]() | []() | []() | []() |
+| [552]()  | 困难 | [学生出勤记录 II/Student Attendance Record II]() | []() | []() | []() |
+| [621]()  | 中等 | [任务调度器/Task Scheduler]() | []() | []() | []() |
+| [647]()  | 中等 | [回文子串/Palindromic Substrings]() | []() | []() | []() |
+| [714]()  | 中等 | [买卖股票的最佳时机含手续费/Best Time to Buy and Sell Stock with Transaction Fee]() | []() | []() | []() |
+| [980]()  | 困难 | [不同路径 IIIUnique Paths III]() | []() | []() | []() |
 
 ---
 
@@ -204,13 +204,13 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 100  |      | [Same Tree]() | []() | []() | []() |
-| 101  |      | [Symmetric Tree]() | []() | []() | []() |
-| 108  |      | [Convert Sorted Array to Binary Search Tree]() | []() | []() | []() |
-| 110  |      | [Balanced Binary Tree]() | []() | []() | []() |
-| 112  |      | [Path Sum]() | []() | []() | []() |
-| 208  | 中等 | [实现 Trie (前缀树)/Implement Trie (Prefix Tree)]() | []() | []() | []() |
-| 212  | 困难 | [单词搜索 II/Word Search II]() | []() | []() | []() |
+| [100]()  |      | [Same Tree]() | []() | []() | []() |
+| [101]()  |      | [Symmetric Tree]() | []() | []() | []() |
+| [108]()  |      | [Convert Sorted Array to Binary Search Tree]() | []() | []() | []() |
+| [110]()  |      | [Balanced Binary Tree]() | []() | []() | []() |
+| [112]()  |      | [Path Sum]() | []() | []() | []() |
+| [208]()  | 中等 | [实现 Trie (前缀树)/Implement Trie (Prefix Tree)]() | []() | []() | []() |
+| [212]()  | 困难 | [单词搜索 II/Word Search II]() | []() | []() | []() |
 
 ---
 
@@ -220,11 +220,11 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 52   | 困难 | [N皇后 II/N-Queens II]() | []() | []() | []() |
-| 190  | 简单 | [颠倒二进制位/Reverse Bits]() | []() | []() | []() |
-| 191  | 简单 | [位1的个数/Number of 1 Bits]() | []() | []() | []() |
-| 231  | 简单 | [2的幂/Power of Two]() | []() | []() | []() |
-| 338  | 中等 | [比特位计数/Counting Bits]() | []() | []() | []() |
+| [52]()   | 困难 | [N皇后 II/N-Queens II]() | []() | []() | []() |
+| [190]()  | 简单 | [颠倒二进制位/Reverse Bits]() | []() | []() | []() |
+| [191]()  | 简单 | [位1的个数/Number of 1 Bits]() | []() | []() | []() |
+| [231]()  | 简单 | [2的幂/Power of Two]() | []() | []() | []() |
+| [338]()  | 中等 | [比特位计数/Counting Bits]() | []() | []() | []() |
 
 ---
 
@@ -234,7 +234,7 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 146  | 困难 | [LRU缓存机制/LRU-catch]() | []() | []() | []() |
+| [146]()  | 困难 | [LRU缓存机制/LRU-catch]() | []() | []() | []() |
 
 ---
 
@@ -244,9 +244,9 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| 130  | 中等 | [被围绕的区域/Surrounded Regions]() | []() | []() | []() |
-| 200  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
-| 547  | 中等 | [朋友圈/Number of Provinces]() | []() | []() | []() |
+| [130]()  | 中等 | [被围绕的区域/Surrounded Regions]() | []() | []() | []() |
+| [200]()  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
+| [547]()  | 中等 | [朋友圈/Number of Provinces]() | []() | []() | []() |
 ---
 
 ### **其他实战题目**
@@ -255,23 +255,23 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              |                             Java                             | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :----: |
-| 1    | 简单 | [两数之和/ Two Sum]() | []() | []() | []() |
-| 7    |      | [Reverse Integer]() | []() | []() | []() |
-| 9    |      | [Palindrome Number]() | []() | []() | []() |
-| 13   |      | [Roman to Integer]() | []() | []() | []() |
-| 14   |      | [Longest Common Prefix]() | []() | []() | []() |
-| 15   | 中等 | [三数之和/ Three Sum]() | []() | []() | []() |
-| 20   | 简单 | [有效的括号/Valid Parentheses]() | []() | []() | []() |
-| 42   | 困难 | [接雨水/Trapping Rain Water]() | []() | []() | []() |
-| 49   | 中等 | [字母异位词分组/Group Anagrams]() | []() | []() | []() |
-| 58   |      | [Length of Last Word]() | []() | []() | []() |
-| 67   |      | [Add Binary]() | []() | []() | []() |
-| 84   | 困难 | [柱状图中最大的矩形/Largest Rectangle in Histogram]() | []() | []() | []() |
-| 155  | 简单 | [最小栈/Min Stack]() | []() | []() | []() |
-| 239  | 困难 | [滑动窗口最大值/Sliding Window Maximum]() | []() | []() | []() |
-| 242  | 简单 | [有效的字母异位词/Valid Anagram]() | []() | []() | []() |
-| 253  |      | [Meeting Rooms II]() | []() | []() | []() |
-| 641  | 中等 | [设计循环双端队列/Design Circular Deque]() | []() | []() | []() |
+| [1]()    | 简单 | [两数之和/ Two Sum]() | []() | []() | []() |
+| [7]()    |      | [Reverse Integer]() | []() | []() | []() |
+| [9]()    |      | [Palindrome Number]() | []() | []() | []() |
+| [13]()   |      | [Roman to Integer]() | []() | []() | []() |
+| [14]()   |      | [Longest Common Prefix]() | []() | []() | []() |
+| [15]()   | 中等 | [三数之和/ Three Sum]() | []() | []() | []() |
+| [20]()   | 简单 | [有效的括号/Valid Parentheses]() | []() | []() | []() |
+| [42]()   | 困难 | [接雨水/Trapping Rain Water]() | []() | []() | []() |
+| [49]()   | 中等 | [字母异位词分组/Group Anagrams]() | []() | []() | []() |
+| [58]()   |      | [Length of Last Word]() | []() | []() | []() |
+| [67]()   |      | [Add Binary]() | []() | []() | []() |
+| [84]()   | 困难 | [柱状图中最大的矩形/Largest Rectangle in Histogram]() | []() | []() | []() |
+| [155]()  | 简单 | [最小栈/Min Stack]() | []() | []() | []() |
+| [239]()  | 困难 | [滑动窗口最大值/Sliding Window Maximum]() | []() | []() | []() |
+| [242]()  | 简单 | [有效的字母异位词/Valid Anagram]() | []() | []() | []() |
+| [253]()  |      | [Meeting Rooms II]() | []() | []() | []() |
+| [641]()  | 中等 | [设计循环双端队列/Design Circular Deque]() | []() | []() | []() |
 
 ---
 
@@ -281,13 +281,13 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              |                             Java                             | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :----: |
-| 3    |      | [Longest Substring Without Repeating Characters]() | []() | []() | []() |
-| 27   |      | [Remove Element]() | []() | []() | []() |
-| 28   |      | [Implement strStr()]() | []() | []() | []() |
-| 35   |      | [Search Insert Position]() | []() | []() | []() |
-| 83   |      | [Remove Duplicates from Sorted List]() | []() | []() | []() |
-| 125  |      | [Vaild Palindrome]() | []() | []() | []() |
-| 136  |      | [Single Number]() | []() | []() | []() |
+| [3]()    |      | [Longest Substring Without Repeating Characters]() | []() | []() | []() |
+| [27]()   |      | [Remove Element]() | []() | []() | []() |
+| [28]()   |      | [Implement strStr()]() | []() | []() | []() |
+| [35]()   |      | [Search Insert Position]() | []() | []() | []() |
+| [83]()   |      | [Remove Duplicates from Sorted List]() | []() | []() | []() |
+| [125]()  |      | [Vaild Palindrome]() | []() | []() | []() |
+| [136]()  |      | [Single Number]() | []() | []() | []() |
 
 ---
 
