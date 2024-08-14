@@ -89,7 +89,7 @@
 | [105]()                                                         | 中等 | [从前序与中序遍历序列构造二叉树/Construct Binary Tree from Preorder and Inorder Traversal]() | []() | []() | []() |
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)                                                          | 简单 | [二叉树的最小深度/Minimum Depth of Binary Tree]() | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/111%E7%AE%80%E5%8D%95%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6MinimumDepthOfBinaryTree/Java_Solution.md) | []() |
 | [144]()                                                          | 中等 | [二叉树的前序遍历/Binary Tree Preorder Traversal]() | []() | []() | []() |
-| [226]()                                                          | 简单 | [翻转二叉树/Invert Binary Tree]() | []() | []() | []() |
+| [226]()                                                          | 简单 | [翻转二叉树/Invert Binary Tree]() | []() | [✅](https://github.com/ErdunE/LeetCode_2nd_Solution/blob/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20Binary%20Tree/226%E7%AE%80%E5%8D%95%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91InvertBinaryTree/Java_Solution.md) | []() |
 | [230]()                                                          | 中等 | [二叉搜索树中第K小的元素/Kth Smallest Element in a BST]() | []() | []() | []() |
 | [236]()                                                          | 中等 | [二叉树的最近公共祖先/Lowest Common Ancestor of a Binary Tree]() | []() | []() | []() |
 | [297]()                                                          | 困难 | [二叉树的序列化与反序列化/Seriallize and Deserialize Binary Tree]() | []() | []() | []() |
