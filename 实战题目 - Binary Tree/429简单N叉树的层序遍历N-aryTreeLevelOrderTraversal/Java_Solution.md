@@ -1,68 +1,43 @@
 ```
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        
-        //定义一个新联表伪指针，用来指向头指针，返回结果
-        ListNode prev = new ListNode(0);
-
-        //定义一个进位数的指针，用来存储当两数之和大于10的时候，
-        int carry = 0;
-
-        //定义一个可移动的指针，用来指向存储两个数之和的位置
-        ListNode cur = prev;
-
-        //当l1 不等于null或l2 不等于空时，就进入循环
-        while(l1 != null || l2 != null){
-
-            //如果l1 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int x = l1 != null ? l1.val : 0;
-            //如果l2 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int y = l2 != null ? l2.val : 0;
-            //将两个链表的值，进行相加，并加上进位数
-            int sum = x + y + carry;
-            //计算进位数
-            carry = sum / 10;
-            //计算两个数的和，此时排除超过10的请况（大于10，取余数）
-            sum = sum % 10;
-            //将求和数赋值给新链表的节点，
-            //注意这个时候不能直接将sum赋值给cur.next = sum。这时候会报，类型不匹配。
-            //所以这个时候要创一个新的节点，将值赋予节点
-            cur.next = new ListNode(sum);
-            //将新链表的节点后移
-            cur = cur.next;
-            //当链表l1不等于null的时候，将l1 的节点后移
-            if(l1 != null){
-                l1 = l1.next;
-            }
-            //当链表l2不等于null的时候，将l1 的节点后移
-            if(l2 != null){
-                l2 = l2.next;
-            }
+    public List<List<Integer>> levelOrder(Node root) {
+        // 创建一个数组来保存结果
+        List<List<Integer>> res = new ArrayList<>();
+        // 如果root为空直接返回空数组
+        if(root == null){
+            return res;
         }
-        //如果最后两个数，相加的时候有进位数的时候，就将进位数，赋予链表的新节点。
-        //两数相加最多小于20，所以的的值最大只能时1
-        if(carry == 1){
-            cur.next = new ListNode(carry);
-        }
-        //返回链表头结点
-        return prev.next;
+        // 创建一个队列用来保存每个元素
+        Queue<Node> queue = new LinkedList<>();
+        // 先把root加入到队列中
+        queue.add(root);
 
+        // 队列一直循环知道队列为空
+        while(!queue.isEmpty()){
+            // 定义队列大小
+            int queueSize = queue.size();
+            // 每一层单独一个新的数组
+            List<Integer> floor = new ArrayList<>();
+            // 循环该队列大小并依次将元素的值加入到楼层数组中
+            for(int i = 0; i < queueSize; i++){
+                Node node = queue.poll();
+                floor.add(node.val);
+                // 将该元素的子元素加入到队列中等待下一轮的遍历 
+                for(Node n : node.children){
+                    queue.offer(n);
+                }               
+            }
+            // 结果中加入当前层元素的值
+            res.add(floor);
+        }
+        return res;
     }
 }
 ```
 
-时间复杂度：O(max⁡(m,n))，其中 m 和 n 分别为两个链表的长度。我们要遍历两个链表的全部位置，而处理每个位置只需要 O 的时间。
+时间复杂度：O(n)，其中 n 是树中包含的节点个数。在广度优先搜索的过程中，我们需要遍历每一个节点恰好一次。
 
-空间复杂度：O(1)。注意返回值不计入空间复杂度。
+空间复杂度：O(n)，即为队列需要使用的空间。在最坏的情况下，树只有两层，且最后一层有 n−1 个节点，此时就需要 O(n) 的空间。
 
 
