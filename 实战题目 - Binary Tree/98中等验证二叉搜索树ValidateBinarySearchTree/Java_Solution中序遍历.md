@@ -1,5 +1,5 @@
 
-## 前序遍历
+## 中序遍历
 ```
 /**
  * Definition for a binary tree node.
@@ -17,21 +17,21 @@
  * }
  */
 class Solution {
+    // 初始化pre结点的值
+    private long pre = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
-        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE);
-    }
-    public boolean isValidBST(TreeNode node, long left, long right){
-        // 判断空节点
-        if(node == null){
+        // 判断空节点/边界条件
+        if(root == null){
             return true;
         }
-        // 记录当前节点值
-        long x = node.val;
-
-        // 首先必须在区间范围内 即 left < x < right
-        // 同时左子树必须是二叉搜索树 即 isValidBST(node.left, left, x)
-        // 同时右子树必须是二叉搜索树 即 isValidBST(node.right, x, right)
-        return left < x && right > x && isValidBST(node.left, left, x) && isValidBST(node.right, x, right);
+        // 判断左边，如果不行或小于前结点值 返回false
+        if(!isValidBST(root.left) || root.val <= pre){
+            return false;
+        }
+        // pre值等于当前节点值
+        pre = root.val;
+        // 递归右子树
+        return isValidBST(root.right);
     }
 }
 ```
