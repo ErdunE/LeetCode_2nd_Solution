@@ -1,68 +1,44 @@
 ```
 /**
- * Definition for singly-linked list.
- * public class ListNode {
+ * Definition for a binary tree node.
+ * public class TreeNode {
  *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
  * }
  */
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        
-        //定义一个新联表伪指针，用来指向头指针，返回结果
-        ListNode prev = new ListNode(0);
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        preOrder(root, ans);
+        return ans;
+    }
 
-        //定义一个进位数的指针，用来存储当两数之和大于10的时候，
-        int carry = 0;
-
-        //定义一个可移动的指针，用来指向存储两个数之和的位置
-        ListNode cur = prev;
-
-        //当l1 不等于null或l2 不等于空时，就进入循环
-        while(l1 != null || l2 != null){
-
-            //如果l1 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int x = l1 != null ? l1.val : 0;
-            //如果l2 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
-            int y = l2 != null ? l2.val : 0;
-            //将两个链表的值，进行相加，并加上进位数
-            int sum = x + y + carry;
-            //计算进位数
-            carry = sum / 10;
-            //计算两个数的和，此时排除超过10的请况（大于10，取余数）
-            sum = sum % 10;
-            //将求和数赋值给新链表的节点，
-            //注意这个时候不能直接将sum赋值给cur.next = sum。这时候会报，类型不匹配。
-            //所以这个时候要创一个新的节点，将值赋予节点
-            cur.next = new ListNode(sum);
-            //将新链表的节点后移
-            cur = cur.next;
-            //当链表l1不等于null的时候，将l1 的节点后移
-            if(l1 != null){
-                l1 = l1.next;
-            }
-            //当链表l2不等于null的时候，将l1 的节点后移
-            if(l2 != null){
-                l2 = l2.next;
-            }
+    private void preOrder(TreeNode root, List<Integer> ans){
+        if(root != null){
+            ans.add(root.val);
+            preOrder(root.left, ans);
+            preOrder(root.right, ans);
         }
-        //如果最后两个数，相加的时候有进位数的时候，就将进位数，赋予链表的新节点。
-        //两数相加最多小于20，所以的的值最大只能时1
-        if(carry == 1){
-            cur.next = new ListNode(carry);
-        }
-        //返回链表头结点
-        return prev.next;
-
+        return;
     }
 }
 ```
 
-时间复杂度：O(max⁡(m,n))，其中 m 和 n 分别为两个链表的长度。我们要遍历两个链表的全部位置，而处理每个位置只需要 O 的时间。
+时间复杂度: n为该二叉树的节点总数。每个节点都会被遍历(遍历方法以其为参数的执行次数)且只遍历一次，因此时间复杂度为O(n)。
 
-空间复杂度：O(1)。注意返回值不计入空间复杂度。
+空间复杂度: 空间复杂度取决于栈深，而栈深与该二叉树的形状有关，如果为链状，达到最大空间复杂度O(n)，如果为完全二叉树(complete binary tree)，栈深为O(logn)。
 
 
+| 前序(根左右)                       | 中序(左根右)                     | 后序(左右根)                       |
+| --------------------------------------- | ------------------------------------- | --------------------------------------- |
+| res.add(root.val);                      | inorderTraversalCur(root.left, res);  | postorderTraversalCur(root.left, res);  |
+| preorderTraversalCur(root.left, res);   | res.add(root.val);                    | postorderTraversalCur(root.right, res); |
+| preorderTraversalCur(root.right, res);  | inorderTraversalCur(root.right, res); | res.add(root.val);                      |
