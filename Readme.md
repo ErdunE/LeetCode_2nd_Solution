@@ -154,7 +154,7 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [53](https://leetcode.com/problems/maximum-subarray/description/)   |      | [Maximum Subarray]() | []() | []() | []() |
+| [53](https://leetcode.com/problems/maximum-subarray/description/)   | 中等 | [Maximum Subarray]() | []() | []() | []() |
 | [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)  | 简单 | [买卖股票的最佳时机 II/Best Time to Buy and Sell Stock II]() | []() | []() | []() |
 | [455](https://leetcode.com/problems/assign-cookies/description/)  | 简单 | [分发饼干/Assign Cookies]() | []() | []() | []() |
 | [860](https://leetcode.com/problems/lemonade-change/description/)  | 简单 | [柠檬水找零/Lemonade Change]() | []() | []() | []() |
@@ -204,11 +204,11 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [100](https://leetcode.com/problems/same-tree/description/)  |      | [Same Tree]() | []() | []() | []() |
-| [101](https://leetcode.com/problems/symmetric-tree/)  |      | [Symmetric Tree]() | []() | []() | []() |
-| [108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)  |      | [Convert Sorted Array to Binary Search Tree]() | []() | []() | []() |
-| [110](https://leetcode.com/problems/balanced-binary-tree/)  |      | [Balanced Binary Tree]() | []() | []() | []() |
-| [112](https://leetcode.com/problems/path-sum/)  |      | [Path Sum]() | []() | []() | []() |
+| [100](https://leetcode.com/problems/same-tree/description/)  | 简单 | [Same Tree]() | []() | []() | []() |
+| [101](https://leetcode.com/problems/symmetric-tree/)  | 简单 | [Symmetric Tree]() | []() | []() | []() |
+| [108](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)  | 简单 | [Convert Sorted Array to Binary Search Tree]() | []() | []() | []() |
+| [110](https://leetcode.com/problems/balanced-binary-tree/)  | 简单 | [Balanced Binary Tree]() | []() | []() | []() |
+| [112](https://leetcode.com/problems/path-sum/)  | 简单 | [Path Sum]() | []() | []() | []() |
 | [208](https://leetcode.com/problems/implement-trie-prefix-tree/description/)  | 中等 | [实现 Trie (前缀树)/Implement Trie (Prefix Tree)]() | []() | []() | []() |
 | [212](https://leetcode.com/problems/word-search-ii/description/)  | 困难 | [单词搜索 II/Word Search II]() | []() | []() | []() |
 
