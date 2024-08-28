@@ -104,10 +104,10 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)   | 中等 | [电话号码的字母组合/Letter Combinations of a Phone Number]() | []() | []() | []() |
-| [50](https://leetcode.com/problems/powx-n/description/)   | 中等 | [Pow(x,n)]() | []() | []() | []() |
-| [78](https://leetcode.com/problems/subsets/description/)   | 中等 | [子集/Subsets]() | []() | []() | []() |
-| [169](https://leetcode.com/problems/majority-element/description/)  | 简单 | [求众数/Majority Element]() | []() | []() | []() |
+| [17](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)   | 中等 | [电话号码的字母组合/Letter Combinations of a Phone Number](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E5%88%86%E6%B2%BB/17%E4%B8%AD%E7%AD%89%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E7%9A%84%E5%AD%97%E6%AF%8D%E7%BB%84%E5%90%88LetterCombinationsOfAPhoneNumber) | []() | []() | []() |
+| [50](https://leetcode.com/problems/powx-n/description/)   | 中等 | [Pow(x,n)](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E5%88%86%E6%B2%BB/50%E4%B8%AD%E7%AD%89Pow(x%2Cn)) | []() | []() | []() |
+| [78](https://leetcode.com/problems/subsets/description/)   | 中等 | [子集/Subsets](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E5%88%86%E6%B2%BB/78%E4%B8%AD%E7%AD%89%E5%AD%90%E9%9B%86Subsets) | []() | []() | []() |
+| [169](https://leetcode.com/problems/majority-element/description/)  | 简单 | [求众数/Majority Element](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E5%88%86%E6%B2%BB/169%E7%AE%80%E5%8D%95%E6%B1%82%E4%BC%97%E6%95%B0MajorityElement) | []() | []() | []() |
 
 ---
 
