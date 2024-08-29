@@ -117,12 +117,12 @@
 
 | 题号 | 难度 | 题目名称及解答                                               |                             C++                              | Java | Python |
 | ---- | ---- | ------------------------------------------------------------ | :----------------------------------------------------------: | :--: | :----: |
-| [102](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)  | 中等 | [二叉树的层次遍历/Binary Tree Level Order Traversal]() | []() | []() | []() |
-| [127](https://leetcode.com/problems/word-ladder/description/)  | 中等 | [单词接龙/Word Ladder]() | []() | []() | []() |
-| [200](https://leetcode.com/problems/number-of-islands/description/)  | 中等 | [岛屿数量/Number of Islands]() | []() | []() | []() |
-| [433](https://leetcode.com/problems/minimum-genetic-mutation/description/)  | 中等 | [最小基因变化/Minimum Genetic Mutation]() | []() | []() | []() |
-| [515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)  | 中等 | [在每个树行中找最大值/Find Largest Value in Each Tree Row]() | []() | []() | []() |
-| [529](https://leetcode.com/problems/minesweeper/description/)  | 中等 | [扫雷游戏/Minesweeper]() | []() | []() | []() |
+| [102](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)  | 中等 | [二叉树的层次遍历/Binary Tree Level Order Traversal](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E9%81%8D%E5%8E%86%E5%92%8C%E6%90%9C%E7%B4%A2/102%E4%B8%AD%E7%AD%89%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86BinaryTreeLevelOrderTraversal) | []() | []() | []() |
+| [127](https://leetcode.com/problems/word-ladder/description/)  | 中等 | [单词接龙/Word Ladder](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E9%81%8D%E5%8E%86%E5%92%8C%E6%90%9C%E7%B4%A2/127%E4%B8%AD%E7%AD%89%E5%8D%95%E8%AF%8D%E6%8E%A5%E9%BE%99WordLadder) | []() | []() | []() |
+| [200](https://leetcode.com/problems/number-of-islands/description/)  | 中等 | [岛屿数量/Number of Islands](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E9%81%8D%E5%8E%86%E5%92%8C%E6%90%9C%E7%B4%A2/200%E4%B8%AD%E7%AD%89%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8FNumberOfIslands) | []() | []() | []() |
+| [433](https://leetcode.com/problems/minimum-genetic-mutation/description/)  | 中等 | [最小基因变化/Minimum Genetic Mutation](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E9%81%8D%E5%8E%86%E5%92%8C%E6%90%9C%E7%B4%A2/433%E4%B8%AD%E7%AD%89%E6%9C%80%E5%B0%8F%E5%9F%BA%E5%9B%A0%E5%8F%98%E5%8C%96MinimumGeneticMutation) | []() | []() | []() |
+| [515](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/)  | 中等 | [在每个树行中找最大值/Find Largest Value in Each Tree Row](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E9%81%8D%E5%8E%86%E5%92%8C%E6%90%9C%E7%B4%A2/515%E4%B8%AD%E7%AD%89%E5%9C%A8%E6%AF%8F%E4%B8%AA%E6%A0%91%E8%A1%8C%E4%B8%AD%E6%89%BE%E6%9C%80%E5%A4%A7%E5%80%BCFindLargestValueInEachTreeRow) | []() | []() | []() |
+| [529](https://leetcode.com/problems/minesweeper/description/)  | 中等 | [扫雷游戏/Minesweeper](https://github.com/ErdunE/LeetCode_2nd_Solution/tree/main/%E5%AE%9E%E6%88%98%E9%A2%98%E7%9B%AE%20-%20%E9%81%8D%E5%8E%86%E5%92%8C%E6%90%9C%E7%B4%A2/529%E4%B8%AD%E7%AD%89%E6%89%AB%E9%9B%B7%E6%B8%B8%E6%88%8FMinesweeper) | []() | []() | []() |
 ---
 
 ### **实战题目 - 剪枝**
